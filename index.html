@@ -1,11 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel</title>
+    <title>SI Travel's</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/6c72b7254d.js" crossorigin="anonymous"></script>
+    <!-- Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Custom Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
+<body class="font-raleway">
+    <header>
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Tracking</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-4xl font-extrabold text-black">ST Travel's</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Tracking</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a
+                        class="btn hover:bg-[#1DD1001A] hover:border-green-500 text-green-500 border-green-500 bg-[#1DD1001A]">Bus
+                        <img src="images/bus-icon.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+        <section class="container mx-auto flex justify-center">
+            <div class="hero bg-no-repeat bg-cover bg-center rounded-3xl h-[550px] w-4/5 md:w-[1171px]"
+                style="background: linear-gradient(180.00deg, rgba(3, 7, 18, 0.5), rgba(3, 7, 18, 0) 100%), url('images/banner.png');">
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md mx-auto">
+                        <h1 class="mb-5 text-5xl font-bold">Start Travel with</h1>
+                        <h1 class="mb-5 text-5xl font-bold text-[#1DD100]">ST Travel'S</h1>
+                        <p class="mb-5">Your Travel Partner
+                            Seamless travel planning at your fingertips. Book flights, find accommodations, and explore
+                            destinations effortlessly. Your journey starts here with ST Travel's</p>
+                        <button class="btn btn-primary bg-[#1DD100] hover:bg-[#76df66] text-black border-none"><a
+                                href="#buy-seats">Buy Tickets</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
     
+
+
+    <!-- Script js -->
+    <script src="script.js"></script>
 </body>
 </html>
