@@ -28,6 +28,7 @@
         }
     </script>
 </head>
+
 <body class="font-raleway">
     <header>
         <nav>
@@ -82,12 +83,412 @@
                 </div>
             </div>
         </section>
-
     </header>
-    
+    <main>
+        <!-- Offer Section -->
+        <section class="container mx-auto">
+            <h2 class="text-4xl font-extrabold text-black flex justify-center m-9 md:m-32">Best offer for you</h2>
+            <div class=" flex flex-col md:flex-row justify-center gap-11 pl-7 md:pl-0">
+                <div class="flex flex-col md:flex-row relative ">
+                    <div
+                        class="bg-orange-400 max-w-80 font-inter py-14 px-14 rounded-3xl border-dashed border-b-2 md:border-b-0 md:border-r-2">
+                        <h2 class="text-4xl font-extrabold">15% OFF</h2>
+                        <p class="font-bold">on your next purchase</p>
+                        <p class="text-slate-700">use by FEB 27</p>
+                    </div>
+                    <div class="hidden md:flex absolute rounded-full w-9 h-9 -mt-5 left-[16.875rem] bg-white w-3"></div>
+                    <div
+                        class="hidden md:flex absolute rounded-full w-9 h-9 mt-[11.25rem] left-[16.875rem] bg-white w-3">
+                    </div>
+                    <div class="bg-orange-400 max-w-80 py-14 px-14 rounded-3xl">
+                        <h2 class="text-4xl font-extrabold">NEW15</h2>
+                        <p class="font-bold">Coupon Code</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex flex-col md:flex-row relative">
+                        <div
+                            class="bg-pink-300 max-w-80 font-inter py-14 px-14 rounded-3xl border-dashed border-b-2 md:border-b-0 md:border-r-2">
+                            <h2 class="text-4xl font-extrabold">20% OFF</h2>
+                            <p class="font-bold">on your next purchase</p>
+                            <p class="text-slate-700">use by FEB 27</p>
+                        </div>
+                        <div class="hidden md:flex absolute rounded-full w-9 h-9 -mt-5 left-[16.875rem] bg-white w-3">
+                        </div>
+                        <div
+                            class="hidden md:flex absolute rounded-full w-9 h-9 mt-[11.25rem] left-[16.875rem] bg-white w-3">
+                        </div>
+                        <div class="bg-pink-300 max-w-80 py-14 px-14 rounded-3xl">
+                            <h2 class="text-4xl font-extrabold">Couple 20</h2>
+                            <p class="font-bold">Coupon Code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center my-32">
+                <button
+                    class="btn hover:bg-[#1DD1001A] hover:border-green-500 text-green-500 border-green-500 bg-[#1DD1001A">
+                    See All Offer</button>
+            </div>
+        </section>
+        <!-- Buy Ticket -->
+        <section>
+            <div class=" border-t-4 border-green-400 rounded-t-[3rem] p-8 bg-[#F7F8F8]">
+                <div class="">
+                    <h2 class="font-extrabold text-4xl flex justify-center pt-6">ST Travel's</h2>
+                    <div class="flex justify-center justify-center items-center pt-6">
+                        <p class="max-w-[780px]">Your Travel Partner
+                            Seamless travel planning at your fingertips. Book flights, find accommodations, and explore
+                            destinations effortlessly. Your journey starts here with ST Travel's</p>
+                    </div>
+                </div>
+                <!-- Total Seat -->
+                <div class="flex flex-col md:flex-row relative justify-center pt-11 mb-4">
+                    <div
+                        class="bg-white font-inter py-14 px-14 rounded-3xl border-dashed border-b-2 md:border-b-0 md:border-r-2">
+                        <div class="flex flex-col md:flex-row justify-between gap-5 md:gap-60">
+                            <div class="flex items-center gap-6">
+                                <img class="h-12" src="images/bus-logo.png" alt="">
+                                <div>
+                                    <h2 class="font-extrabold text-2xl md:text-4xl flex">ST Travel'S</h2>
+                                    <p>Coach-009-WEB ! AC_Business</p>
+                                </div>
+                            </div>
+                            <div id="seatButton"
+                                class="flex px-4 py-5 rounded-3xl items-center gap-2 hover:bg-[#1DD1001A] hover:border-green-500 text-green-500 border-green-500 bg-[#1DD1001A]">
+                                <img src="images/seat-green.png" alt="">
+                                <span id="seatsLeft">40</span> seats left
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden md:flex absolute rounded-full w-9 h-9 -mt-5 left-[990px] bg-[#F7F8F8] w-3"></div>
+                    <div
+                        class="hidden md:flex absolute rounded-full w-9 h-9 mt-[13.5rem] left-[990px] bg-[#F7F8F8] w-3">
+                    </div>
+                    <div class="bg-white py-14 px-14 rounded-3xl">
+                        <div class="flex justify-center pb-4">
+                            <img class="max-w-11" src="images/fare.png" alt="">
+                        </div>
+                        <div class="flex justify-center">
+                            <h2 class="text-4xl font-extrabold">550 Taka</h2>
+                        </div>
+                        <div class="flex justify-center">
+                            <p class="font-bold">Per Seat</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Seats -->
+                <div class="container bg-white p-9 rounded-3xl flex flex-col md:flex-row justify-center gap-16">
+                    <div class="border-r-2 border-dashed pr-4">
+                        <h4 id="buy-seats" class="border-b-2 border-dashed text-2xl font-bold ">Select Your Seat</h4>
+                        <div class="flex justify-between border-b-2 border-dashed pr-4">
+                            <p class="flex items-center py-2"><img src="images/seat-gray.png" alt="">Available</p>
+                            <p class="flex items-center py-2 text-green-500"><img src="images/seat-green.png"
+                                    alt="">Selected</p>
+                        </div>
+
+                        <div class="bg-[#F7F8F8] p-9 mt-3 flex flex-col gap-5 rounded-lg">
+                            <div class="flex justify-between">
+                                <p class="text-lg font-semibold text-[#03071299]">Route</p>
+                                <p class="font-semibold text-lg">Dhaka - Sylhet</p>
+                            </div>
+                            <hr class="border-dashed border-2">
+                            <div class="flex justify-between">
+                                <p class="text-lg font-semibold text-[#03071299]">Departure Time</p>
+                                <p class="font-semibold text-lg">9:00 PM</p>
+                            </div>
+                            <hr class="border-dashed border-2">
+                            <div class="lg:flex justify-between gap-3 space-y-2 lg:space-y-0 font-sans">
+                                <p class="p-5 text-[#030712CC] bg-[#0307120D] font-medium text-sm rounded-lg">Boarding
+                                    Point
+                                    -
+                                    Laxmipur</p>
+                                <p class="p-5 text-[#030712CC] bg-[#0307120D] font-medium text-sm rounded-lg">Dropping
+                                    Point
+                                    -
+                                    Bogura</p>
+                                <p class="p-5 text-[#030712CC] bg-[#0307120D] font-medium text-sm rounded-lg">Est. Time
+                                    - 11
+                                    Hour
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <!-- Popup -->
+                        <div id="successMessage"
+                            class="hidden bg-white rounded-2xl max-w-[44.5rem] absolute p-9 md:left-[30%] border-2 border-dashed border-black">
+                            <div class="p-11">
+                                <div class="flex justify-center"><img src="images/success.png" alt=""></div>
+                                <div class="flex justify-center">
+                                    <h3>Success</h3>
+                                </div>
+                                <p class="flex justify-center">Thank you for Booking Our Bus Seats.
+                                    We are working hard to find the best service and deals for you.
+                                    Shortly you will find a confirmation in your email.</p>
+                                <button class="btn bg-green-500 flex mx-auto" id="continueButton">Continue</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="flex justify-end py-4">
+                            <div id="a1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                <button class="text-[#03071280] font-bold"><img src="images/streering-svgrepo-com.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class=" space-y-3 font-sans font-medium">
+                            <div class="flex gap-7 flex-wrap justify-between ">
+                                <div id="a" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">A</button>
+                                </div>
+                                <div id="a1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">A1</button>
+                                </div>
+                                <div id="a2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">A2</button>
+                                </div>
+                                <div id="a3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">A3</button>
+                                </div>
+                                <div id="a4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">A4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="b" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">B</button>
+                                </div>
+                                <div id="b1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">B1</button>
+                                </div>
+                                <div id="b2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">B2</button>
+                                </div>
+                                <div id="b3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">B3</button>
+                                </div>
+                                <div id="b4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">B4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="c" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">C</button>
+                                </div>
+                                <div id="c1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">C1</button>
+                                </div>
+                                <div id="c2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">C2</button>
+                                </div>
+                                <div id="c3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">C3</button>
+                                </div>
+                                <div id="c4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">C4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="d" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">D</button>
+                                </div>
+                                <div id="d1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">D1</button>
+                                </div>
+                                <div id="d2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">D2</button>
+                                </div>
+                                <div id="d3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">D3</button>
+                                </div>
+                                <div id="d4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">D4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="e" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">E</button>
+                                </div>
+                                <div id="e1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">E1</button>
+                                </div>
+                                <div id="e2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">E2</button>
+                                </div>
+                                <div id="e3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">E3</button>
+                                </div>
+                                <div id="e4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">E4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="f" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">F</button>
+                                </div>
+                                <div id="f1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">F1</button>
+                                </div>
+                                <div id="f2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">F2</button>
+                                </div>
+                                <div id="f3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">F3</button>
+                                </div>
+                                <div id="f4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">F4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="g" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">G</button>
+                                </div>
+                                <div id="g1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">G1</button>
+                                </div>
+                                <div id="g2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">G2</button>
+                                </div>
+                                <div id="g3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">G3</button>
+                                </div>
+                                <div id="g4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">G4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="h" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">H</button>
+                                </div>
+                                <div id="h1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">H1</button>
+                                </div>
+                                <div id="h2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">H2</button>
+                                </div>
+                                <div id="h3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">H3</button>
+                                </div>
+                                <div id="h4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">H4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="i" class="p-4 rounded-lg text-center">
+                                    <button class="text-[#03071280] font-bold">I</button>
+                                </div>
+                                <div id="i1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">I1</button>
+                                </div>
+                                <div id="i2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">I2</button>
+                                </div>
+                                <div id="i3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">I3</button>
+                                </div>
+                                <div id="i4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">I4</button>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-7 flex-wrap justify-between">
+                                <div id="j" class="p-4 rounded-lg text-center ">
+                                    <button class="text-[#03071280] font-bold">J</button>
+                                </div>
+                                <div id="j1" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">J1</button>
+                                </div>
+                                <div id="j2" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">J2</button>
+                                </div>
+                                <div id="j3" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">J3</button>
+                                </div>
+                                <div id="j4" class="p-4 px-10 bg-[#F7F8F8] rounded-lg text-center w-[110px] h-[56px] ">
+                                    <button class="text-[#03071280] font-bold my-seats">J4</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="font-inter">
+                        <div>
+                            <h4 class="border-b-2 border-dashed text-2xl font-bold mb-8 ">Details & Fill up information
+                            </h4>
+                        </div>
+                        <div class="bg-[#F7F8F8] rounded-2xl p-8" id="seatInfoContainer" style="display:none;">
+                            <div class="font-bold border-b-2 border-dashed flex justify-between">
+                                <p>Seat <span id="selectedSeats"
+                                        class="bg-green-500 px-3 rounded-2xl text-white">0</span></p>
+                                <p>Class</p>
+                                <p>Price</p>
+                            </div>
+                            <div id="seatInfo" class="border-t-2 border-solid">
+
+                            </div>
+                        </div>
+                        <div class="border-t-2 border-solid">
+                            <div class="flex justify-between font-bold py-3">
+                                <p>Total Price</p>
+                                <p>BDT <span id="totalPrice">0</span></p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <input type="text" placeholder="Enter coupon code"
+                                class="bg-white input coupon-input w-full max-w-xs" />
+                            <button
+                                class="bg-green-500 text-white px-4 coupon-btn btn hover:bg-green-500 hover:text-white">APPLY</button>
+                        </div>
+                        <div class="flex justify-between font-bold py-6">
+                            <p>Grand Total</p>
+                            <p>BDT <span id="grandTotal">0</span></p>
+                        </div>
+
+                        <!-- Information -->
+                        <form class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text font-extrabold">Passenger Name*</span>
+                                </label>
+                                <input type="text" placeholder="Your name" class="input input-bordered" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text font-extrabold">Phone Number*</span>
+                                </label>
+                                <input type="text" placeholder="Your Number" class="input input-bordered" required />
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="label-text font-extrabold">Email ID*</span>
+                                    </label>
+                                    <input type="email" placeholder="Your Email" class="input input-bordered"
+                                        required />
+                                </div>
+                            </div>
+                            <div class="form-control mt-6">
+                                <button class="btn bg-green-500" id="nextButton">Next</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
 
     <!-- Script js -->
     <script src="script.js"></script>
 </body>
+
 </html>
